@@ -1,4 +1,4 @@
-package com.mag.anyauto.car;
+package com.srilals.automirror.car;
 
 import android.content.pm.ApplicationInfo;
 

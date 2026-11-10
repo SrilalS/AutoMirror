@@ -1,4 +1,4 @@
-package com.mag.anyauto;
+package com.srilals.automirror;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;

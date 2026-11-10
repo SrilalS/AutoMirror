@@ -53,17 +53,20 @@ car. It has no internet permission, no account and no analytics.
    desktop head unit, a normal install is enough.
 3. Add AnyAuto to Android Auto's launcher (Android Auto settings → *Customize launcher*).
 
-Or build it yourself with the plain Android SDK tools (no Gradle; build-tools 35 and the
-android-35 platform):
+Or build it yourself with the plain Android SDK tools (no Gradle, no bash; PowerShell 7,
+JDK 17+, Python 3, build-tools 35 and the android-35 platform in `ANDROID_HOME`):
 
 ```
-./build.sh            # build anyauto.apk
-./build.sh install    # build, adb install -r, then open it (ANDROID_SERIAL picks the device)
+./build.ps1            # build automirror.apk
+./build.ps1 install    # build, adb install -r, then open it (ANDROID_SERIAL picks the device)
+./build.ps1 verify     # build, then print the manifest and signing details
 ```
 
 The first build downloads the libraries (the Car App Library and the Shizuku API) into
-`libs/` and creates a local signing key in `keys/`. An APK you build yourself is signed with
-your own key, so it can't update the release APK: uninstall that one first.
+`libs/` and creates a local signing key in `keys/`.
+
+This fork (AutoMirror) uses the package `com.srilals.automirror`, so it installs next to the
+original AnyAuto (`com.mag.anyauto`) instead of replacing it.
 
 ## Set up (once)
 
@@ -165,8 +168,8 @@ Android Auto (car screen)                AnyAuto app process              Shizuk
 
 ## Source
 
-`src/com/mag/anyauto/` holds the phone app and the Shizuku service, and
-`src/com/mag/anyauto/car/` the Android Auto side. Logs:
+`src/com/srilals/automirror/` holds the phone app and the Shizuku service, and
+`src/com/srilals/automirror/car/` the Android Auto side. Logs:
 `adb logcat -s AnyAuto AnyAuto.shell AnyAuto.car`.
 
 ## Support

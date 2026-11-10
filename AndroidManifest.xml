@@ -5,7 +5,7 @@
      Source manifest: build.sh merges it with the library manifests (Google's manifest merger) and
      injects minSdk, targetSdk, versionCode and versionName, so do not add <uses-sdk> here. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mag.anyauto">
+    package="com.srilals.automirror">
 
     <!-- NavigationTemplate (navigation apps only) and its drawing surface -->
     <uses-permission android:name="androidx.car.app.NAVIGATION_TEMPLATES" />
@@ -97,7 +97,7 @@
         <!-- Shizuku client: receives the Shizuku binder so the user service can be bound -->
         <provider
             android:name="rikka.shizuku.ShizukuProvider"
-            android:authorities="com.mag.anyauto.shizuku"
+            android:authorities="com.srilals.automirror.shizuku"
             android:multiprocess="false"
             android:enabled="true"
             android:exported="true"

@@ -1,4 +1,4 @@
-package com.mag.anyauto;
+package com.srilals.automirror;
 
 import android.accessibilityservice.AccessibilityServiceInfo;
 import android.app.ActivityManager;

@@ -1,4 +1,4 @@
-package com.mag.anyauto.car;
+package com.srilals.automirror.car;
 
 import android.graphics.Rect;
 import android.util.Log;
@@ -20,9 +20,9 @@ import androidx.core.graphics.drawable.IconCompat;
 import androidx.lifecycle.DefaultLifecycleObserver;
 import androidx.lifecycle.LifecycleOwner;
 
-import com.mag.anyauto.Mirror;
-import com.mag.anyauto.Prefs;
-import com.mag.anyauto.R;
+import com.srilals.automirror.Mirror;
+import com.srilals.automirror.Prefs;
+import com.srilals.automirror.R;
 
 /**
  * The car screen: a NavigationTemplate whose surface the virtual display draws into, with Apps

@@ -1,4 +1,4 @@
-package com.mag.anyauto.car;
+package com.srilals.automirror.car;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -11,10 +11,10 @@ import androidx.car.app.Session;
 import androidx.lifecycle.DefaultLifecycleObserver;
 import androidx.lifecycle.LifecycleOwner;
 
-import com.mag.anyauto.Apps;
-import com.mag.anyauto.Mirror;
-import com.mag.anyauto.Prefs;
-import com.mag.anyauto.Shell;
+import com.srilals.automirror.Apps;
+import com.srilals.automirror.Mirror;
+import com.srilals.automirror.Prefs;
+import com.srilals.automirror.Shell;
 
 /**
  * One car session, one virtual display for its whole life. The root screen is the mirror; the

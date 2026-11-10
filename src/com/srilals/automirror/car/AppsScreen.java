@@ -1,4 +1,4 @@
-package com.mag.anyauto.car;
+package com.srilals.automirror.car;
 
 import android.content.ComponentName;
 import android.content.pm.PackageManager;
@@ -18,9 +18,9 @@ import androidx.core.graphics.drawable.IconCompat;
 import androidx.lifecycle.DefaultLifecycleObserver;
 import androidx.lifecycle.LifecycleOwner;
 
-import com.mag.anyauto.Apps;
-import com.mag.anyauto.Mirror;
-import com.mag.anyauto.Prefs;
+import com.srilals.automirror.Apps;
+import com.srilals.automirror.Mirror;
+import com.srilals.automirror.Prefs;
 
 import java.util.List;
 

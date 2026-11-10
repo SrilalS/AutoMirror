@@ -1,6 +1,6 @@
 // DisplayService runs in a Shizuku-spawned process with the shell user's rights (uid 2000):
 // it owns the virtual display the car screen shows, starts apps on it and injects input.
-package com.mag.anyauto;
+package com.srilals.automirror;
 
 import android.content.ComponentName;
 import android.view.MotionEvent;

@@ -1,4 +1,4 @@
-package com.mag.anyauto;
+package com.srilals.automirror;
 
 import android.app.Activity;
 import android.content.ComponentName;
